@@ -1,0 +1,15 @@
+.places__paragraph {
+  display: inline-block;
+  max-width: 484px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0 0 26px 0;
+  padding: 0;
+}
+
+.places__paragraph:last-child{
+  margin: 0;
+}
