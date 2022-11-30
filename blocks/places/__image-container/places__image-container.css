@@ -1,3 +1,13 @@
 .places__image-container{
     grid-area: places__image;
+        align-self: start;
+}
+
+
+@media screen and (max-width: 768px) {
+    .places__image-container{
+        position: relative;
+        width: calc(100% + 32px);
+        left: -16px;
+    }
 }

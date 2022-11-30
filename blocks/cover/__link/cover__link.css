@@ -1,6 +1,6 @@
 .cover__link{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr max-content 1fr;
     grid-template-rows: 1fr 1fr;
     position: relative;
     row-gap: 32px;
@@ -10,4 +10,11 @@
 
 .cover__link:hover .cover__overlay{
     opacity: 0.8;
+}
+
+@media screen and (max-width: 769px){
+    .cover__link{
+        grid-template-columns: 1fr max-content 1fr;
+        row-gap: 16px;
+    }
 }

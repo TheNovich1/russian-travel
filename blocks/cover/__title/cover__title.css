@@ -6,11 +6,19 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  width: 560px;
+  max-width: 560px;
   grid-column: 2/3;
   grid-row: 1/2;
   z-index: 2;
   justify-self: center;
   align-self: end;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 240px;
+  }
 }
