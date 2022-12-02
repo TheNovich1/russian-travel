@@ -1,8 +1,9 @@
+/*vendor*/
+
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 /*page*/
 @import url(../blocks/page/page.css);
-/*fonts*/
-@import url(../blocks/fonts/fonts.css);
 /*content*/
 @import url(../blocks/content/content.css);
 /*header*/
@@ -10,7 +11,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-list/header__lang-list.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/_selected-language/header__lang-link_selected-language.css);
+@import url(../blocks/header/__lang-link/_selected-language/header__lang-link_selected-language.css);
 /*lead*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -23,7 +24,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__list-item/_type/intro__list-item_type_number.css);
+@import url(../blocks/intro/__list-item-number/intro__list-item-number.css);
 /*photo__grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);

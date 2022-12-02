@@ -1,13 +1,13 @@
-.places__image-container{
-    grid-area: places__image;
-        align-self: start;
+.places__image-container {
+  grid-area: places__image;
+  align-self: start;
+  font-size: 0;
 }
 
-
-@media screen and (max-width: 768px) {
-    .places__image-container{
-        position: relative;
-        width: calc(100% + 32px);
-        left: -16px;
-    }
+@media screen and (max-width: 767px) {
+  .places__image-container {
+    position: relative;
+    width: calc(100% + 32px);
+    right: 16px;
+  }
 }
