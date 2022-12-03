@@ -4,21 +4,21 @@
     padding: 92px 0 0 0;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1279px){
     .cover{ 
         max-width: 1184px;
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
     .cover{ 
         max-width: 100%;
-        padding: 80px 0 0 0;
+        padding: 55px 0 0 0;
     }
 }
 
 @media screen and (max-width: 767px){
     .cover{ 
-        padding: 66px 0 0;
+        padding: 60px 0 0;
     }
 }

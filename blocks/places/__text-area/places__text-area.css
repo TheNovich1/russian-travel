@@ -1,0 +1,9 @@
+.places__text-area{
+
+}
+
+@media screen and (max-width: 767px) {
+    .places__text-area{
+        margin: 0 auto;
+    }
+}
